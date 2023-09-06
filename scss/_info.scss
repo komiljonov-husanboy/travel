@@ -1,0 +1,76 @@
+.infoo{background-image: url(../img/ship.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    .info{
+        display: flex;justify-content: space-between;
+        align-items: center;
+        
+        .left{
+            width: 50%;
+            h2{
+                color: #FFF;
+                font-family:  Arial, Helvetica, sans-serif;
+                font-size: 90.78px;
+                font-weight: 900;
+                margin-top: 180px;
+                margin-left: 10px;
+            }
+            p{
+                width: 580px;
+    
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+            }
+            button{
+    color: #FFF;
+    
+                display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background:  #43B97F  ;
+    margin-top: 20px ;
+    
+            }
+        }
+        .right{
+            .right__list{
+                width: 50%;
+                height: 550px;
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: space-around;
+
+             
+            .right__item{
+                margin-left: 10px;
+                margin-top: 20px;
+                width: 280px;
+height: 178px;
+border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+h2{
+    color:  #3D3E48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 39.81px;
+    font-weight: 700;
+}
+span{
+    color:  #3D3E48;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 500;
+}
+            }
+            }
+
+        }
+    }
+
+}

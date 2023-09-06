@@ -1,0 +1,55 @@
+.water{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 100px 0;
+    .box{
+        background-image: url(../img/bac2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        width: 350px;
+        height: 250px;
+
+        h2{
+            color: #FFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 23.04px;
+font-weight: 700;
+margin-top: 20px;
+
+        }
+        span{
+            color: #FFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 700;
+margin-top: 10px;
+        }
+        p{
+            width: 300px;
+color: #FFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+margin-top: 10px;
+        }
+
+    }
+    button{
+        display: flex;
+padding: 5px 20px;
+align-items: flex-start;
+border-radius: 8px;
+border: 1px solid #43B97F;
+color: #FFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+background: none;
+    }
+
+}
